@@ -11,7 +11,7 @@
     
 }
 
-.wrapper, .wrapper1, .wrapper2 {
+.wrapper {
     text-align: center;
     vertical-align: top;
     position: relative;
@@ -26,16 +26,34 @@
     height: auto;
 }
 
+.container-btn {
+  position: relative;
+    text-align: center;
+    float: none;
+    height: auto;   
+}
+
 .google-image {
     top: 20px;
 }
 
-.buttons {
+.button1 {
     padding: 0px, 0px;
     width: 120px;
     height: 30px;
     top: 30px;
     position: relative;
     border-radius: 5px;
+    font-size: small;
+} 
+
+.button2 {
+    padding: 0px, 0px;
+    width: 150px;
+    height: 30px;
+    top: 30px;
+    position: relative;
+    border-radius: 5px;
+    font-size: small;  
 }
 
