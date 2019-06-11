@@ -39,6 +39,7 @@
 
 .google-image {
     top: 20px;
+    bottom: 40px;
 }
 
 .button1 {
@@ -85,13 +86,11 @@
 }
 
 .navbar {
-    display: inline-block;
     float: left;
     margin: 10px;
 }
 
 .navbar2 {
-    display: inline-block;
     float: right;
     margin: 10px;
 }
@@ -107,7 +106,6 @@ ul {
 
 li {
     display: inline-block
-    
 }
 
 a {
@@ -116,4 +114,14 @@ a {
     background-color: #ffffff;
     color: #4d4d4d;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4d4d4d;
+}
+
+.app {
+    float: right;
+    margin: 3px;
 }
